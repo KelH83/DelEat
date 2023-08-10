@@ -1,0 +1,267 @@
+#header-container{
+    background-color: #0097b2;
+}
+
+#header{
+  text-align: center;
+  margin-left: 75px;
+}
+
+.navbar{
+  background-color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.navbar button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #0097b2;
+  color:#fff;
+}
+
+.navbar button:hover{
+  color:#0097b2;
+  background-color: #fff;
+}
+
+.item1 { 
+    grid-area: nav-bar; 
+    background-color: #cef1f2;
+    padding: 0px;
+  
+    
+}
+.item2 { 
+    grid-area: featured; 
+    background-color: #cef1f2;
+    padding: 15px;
+    border:5px solid #128f8b;
+  
+}
+.item3 { 
+    grid-area: main; 
+    background-color: #cef1f2;
+    
+}
+.item4 { 
+    grid-area: footer;
+    background-color: #0097b2; 
+    padding:0px 8px;
+   
+}
+
+.item1 p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+    
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'banner banner banner banner banner banner'
+        'navbar navbar navbar navbar navbar navbar'
+        'featured main main main main main'
+        'footer footer footer footer footer footer';
+      gap: 10px;
+      background-color: #0097b2;
+      padding: 5px;
+    }
+    
+    .grid-container > div {      
+      text-align: center;
+      /* padding: 10px 0; */
+      font-size: 30px;
+    }
+
+#work-for{
+  width: 100%;
+  height: 60%;
+  padding-bottom: 50px;
+}
+
+.button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #0097b2;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding:10px;
+}
+
+.button:hover{
+  background-color: #fff;
+  color:#0097b2;
+}
+
+.restaurant-container {
+  display: grid;
+  grid-template-areas:
+    'restaurant1 restaurant2 restaurant3 restaurant4';
+  gap: 10px;
+  background-color: #cef1f2;
+  padding: 10px;
+  margin-top: 25px;
+}
+      
+.restaurant-container > div {      
+  text-align: center;
+  padding: 0px;
+  font-size: 30px;
+}
+
+.food1 { 
+        grid-area: restaurant1; 
+        background-color: #cef1f2;
+        padding: 0px;
+        border: 5px solid #128f8b;
+        
+    }
+
+
+
+.food2 { 
+        grid-area: restaurant2; 
+        background-color: #cef1f2;
+        padding: 0px;
+        border: 5px solid #128f8b;
+    }
+.food3 { 
+        grid-area: restaurant3; 
+        background-color: #cef1f2;
+        padding: 0px;
+        border: 5px solid #128f8b;
+    }
+.food4 { 
+        grid-area: restaurant4;
+        background-color: #cef1f2;
+        padding: 0px;
+        border: 5px solid #128f8b;
+    }
+
+.restaurant-image{
+    width: 95%;
+    height: 400px;
+    margin-top: 0px;
+    
+}
+
+
+#star{
+    width: 60px;
+    height: 30px;
+    float:left;
+    padding-left: 80px;
+ }
+
+ .stars-text{
+    text-align: left;
+ }
+
+ .basket-container {
+    position: relative;
+    left: 1180px;
+    bottom: 95px;
+  }
+  
+  .center {
+    position: absolute;
+    left: 14px;
+    bottom: 9px;
+    /* left: 5px; This is for when the number is 2 digits */
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+
+.social-media{
+  width: 50px;
+  height: 50px;
+}
+
+#copyright{
+  font-size: 14px;
+  float:left;
+}
+
+#contact{
+  font-size: 14px;
+  float:right;
+}
+
+/*About page*/
+
+.about-text{
+  background-color: #cef1f2;
+  padding:15px;
+  margin: 0px;
+  text-align: center;
+}
+
+/*Careers page*/
+.rider{
+  width:250px;
+  height:250px;
+  margin:10px;
+  border: 3px solid #0097b2;
+  border-radius: 15px;
+}
+
+/*Contact page*/
+input[type=text], select, textarea {
+  width: 95%; 
+  padding: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+input[type=email], select, textarea {
+  width: 95%; 
+  padding: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #0097b2;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000;
+  color:#fff;
+  border:1px solid #0097b2;
+}
+
+#contact-form {
+  border-radius: 5px;
+  background-color: #cef1f2;
+  padding: 20px;
+}
+
+/*Account page*/
+.signin{
+  padding:10px 350px;
+}
